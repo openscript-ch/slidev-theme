@@ -1,0 +1,11 @@
+{
+	"name": "@openscript/slidev-theme",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"antfu.slidev"
+			]
+		}
+	}
+}
