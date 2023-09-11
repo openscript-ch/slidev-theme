@@ -6,6 +6,8 @@
     "slidev-theme",
     "slidev"
   ],
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "openscript GmbH <hi+npm@openscript.ch>",
   "engines": {
     "node": ">=18.0.0"
   },
