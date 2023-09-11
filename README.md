@@ -1,4 +1,4 @@
-# slidev-theme-slidev-theme
+# `@openscript-ch/slidev-theme`
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-slidev-theme?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-slidev-theme)
 

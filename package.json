@@ -9,13 +9,17 @@
   "license": "SEE LICENSE IN LICENSE",
   "author": "openscript GmbH <hi+npm@openscript.ch>",
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.0.0"
   },
   "scripts": {
     "build": "slidev build example.md",
     "dev": "slidev example.md --open",
     "export": "slidev export example.md",
-    "screenshot": "slidev export example.md --format png"
+    "screenshot": "slidev export example.md --format png",
+    "release:major": "standard-version --release-as major && git push --follow-tags",
+    "release:minor": "standard-version --release-as minor && git push --follow-tags",
+    "release:patch": "standard-version --release-as patch && git push --follow-tags",
+    "release:create-github-release": "conventional-github-releaser -p angular"
   },
   "dependencies": {
     "@slidev/types": "^0.43.0-beta.7",
@@ -24,9 +28,11 @@
     "theme-vitesse": "^0.7.3"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.43.0-beta.7"
+    "@slidev/cli": "^0.43.0-beta.7",
+    "conventional-github-releaser": "^3.1.5",
+    "npm-check": "^6.0.1",
+    "standard-version": "^9.5.0"
   },
-  "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
   "slidev": {
     "colorSchema": "both",
     "highlighter": "all",
