@@ -33,6 +33,7 @@ This theme provides the following components:
 1. Make sure you have [Docker](https://docs.docker.com/get-docker/) up and running
 1. Get [Visual Studio Code](https://code.visualstudio.com/) with [Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers) ready
 1. Open the project inside a Dev Container and run `npm install`
+   - If needed for export or screenshots, install playwright dependencies with `sudo npx playwright install-deps`
 1. `npm run dev` to start theme preview of `example.md`
 1. Edit the `example.md` and style to see the changes
 1. `npm run export` to generate the preview PDF
