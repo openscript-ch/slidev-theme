@@ -4,7 +4,8 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"antfu.slidev"
+				"antfu.slidev",
+				"github.vscode-github-actions"
 			]
 		}
 	}
