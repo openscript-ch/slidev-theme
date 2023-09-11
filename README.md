@@ -1,50 +1,41 @@
 # `@openscript-ch/slidev-theme`
 
-[![NPM version](https://img.shields.io/npm/v/slidev-theme-slidev-theme?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-slidev-theme)
+[![NPM version](https://img.shields.io/npm/v/@openscript-ch/slidev-theme?color=3AB9D4&label=@openscript-ch/slidev-theme)](https://www.npmjs.com/package/@openscript-ch/slidev-theme)
 
-A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
+Our companys theme for [Slidev](https://github.com/slidevjs/slidev).
 
-<!--
-  Learn more about how to write a theme:
-  https://sli.dev/themes/write-a-theme.html
---->
-
-<!--
-  run `npm run dev` to check out the slides for more details of how to start writing a theme
--->
-
-<!--
-  Put some screenshots here to demonstrate your theme
-
-  Live demo: [...]
--->
-
-## Install
+## Use
 
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
 
-<pre><code>---
-theme: <b>slidev-theme</b>
----</code></pre>
+```text
+---
+theme: @openscript-ch/slidev
+---
+```
 
 Learn more about [how to use a theme](https://sli.dev/themes/use).
 
-## Layouts
+### Layouts
 
 This theme provides the following layouts:
 
 > TODO:
 
-## Components
+### Components
 
 This theme provides the following components:
 
 > TODO:
 
-## Contributing
+## Contribute
 
-- `npm install`
-- `npm run dev` to start theme preview of `example.md`
-- Edit the `example.md` and style to see the changes
-- `npm run export` to generate the preview PDF
-- `npm run screenshot` to generate the preview PNG
+1. Make sure you have [Docker](https://docs.docker.com/get-docker/) up and running
+1. Get [Visual Studio Code](https://code.visualstudio.com/) with [Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers) ready
+1. Open the project inside a Dev Container and run `npm install`
+1. `npm run dev` to start theme preview of `example.md`
+1. Edit the `example.md` and style to see the changes
+1. `npm run export` to generate the preview PDF
+1. `npm run screenshot` to generate the preview PNG
+1. Commit and push your changes or create a pull request
+1. Release a new version with `npm run release:patch`, `npm run release:minor` or `npm run release:major`
