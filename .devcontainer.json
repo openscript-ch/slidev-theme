@@ -5,7 +5,9 @@
 		"vscode": {
 			"extensions": [
 				"antfu.slidev",
-				"github.vscode-github-actions"
+				"github.vscode-github-actions",
+				"Vue.vscode-typescript-vue-plugin",
+				"voorjaar.windicss-intellisense"
 			]
 		}
 	}
