@@ -22,16 +22,16 @@
     "release:create-github-release": "conventional-github-releaser -p angular"
   },
   "dependencies": {
-    "@slidev/types": "^0.43.0-beta.7",
+    "@slidev/types": "^0.43.3",
     "codemirror-theme-vars": "^0.1.2",
     "prism-theme-vars": "^0.2.4",
     "theme-vitesse": "^0.7.3"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.43.0-beta.7",
+    "@slidev/cli": "^0.43.3",
     "conventional-github-releaser": "^3.1.5",
     "npm-check": "^6.0.1",
-    "playwright-chromium": "^1.37.1",
+    "playwright-chromium": "^1.38.0",
     "standard-version": "^9.5.0"
   },
   "slidev": {
