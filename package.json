@@ -13,7 +13,7 @@
   },
   "scripts": {
     "build": "slidev build example.md",
-    "dev": "slidev example.md --open",
+    "dev": "slidev example.md",
     "export": "slidev export example.md",
     "screenshot": "slidev export example.md --format png",
     "release:major": "standard-version --release-as major && git push --follow-tags",
@@ -24,8 +24,7 @@
   "dependencies": {
     "@slidev/types": "^0.43.3",
     "codemirror-theme-vars": "^0.1.2",
-    "prism-theme-vars": "^0.2.4",
-    "theme-vitesse": "^0.7.3"
+    "prism-theme-vars": "^0.2.4"
   },
   "devDependencies": {
     "@slidev/cli": "^0.43.3",

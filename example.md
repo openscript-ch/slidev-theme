@@ -2,7 +2,7 @@
 theme: ./
 ---
 
-# Slidev Theme Starter
+# openscript Ltd. theme starter
 
 Presentation slides for developers
 

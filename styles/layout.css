@@ -3,19 +3,65 @@
   --slidev-theme-secondary: #fa5100;
 }
 
-.slidev-layout.cover,
-.slidev-layout.intro {
-  @apply h-full grid;
+html {
+  font-size: 18px;
+}
 
-  h1 {
-    @apply text-6xl leading-20;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--slidev-theme-primary);
+}
 
-  h1 + p {
-    @apply -mt-2 opacity-50 mb-4;
-  }
+h1 {
+  font-size: 2.3rem;
+  font-weight: bold;
+}
 
-  p + h2, ul + h2, table + h2 {
-    @apply mt-10;
+h2 {
+  font-size: 2.0rem;
+}
+
+h3 {
+  font-size: 1.7rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.3rem;
+}
+
+h6 {
+  font-size: 1.1rem;
+}
+
+.slidev-layout {
+  padding: 4rem 3rem;
+}
+
+.slidev-layout > div > *:not(:first-child), .slidev-layout > *:not(:first-child) {
+  margin-top: 0.5em;
+}
+
+#slideshow > div {
+  background-image: url(brand-aslant-light.svg), url(divider-top.svg), url(divider-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 3rem) calc(100% - 1.75rem), top, bottom;
+  background-size: 8rem, 100%, 100%;
+}
+
+#slideshow > div > div {
+  z-index: -1;
+}
+
+@media (prefers-color-scheme: dark) {
+  #slideshow > div {
+    background-image: url(brand-aslant-dark.svg), url(divider-top.svg), url(divider-bottom.svg);
   }
 }
