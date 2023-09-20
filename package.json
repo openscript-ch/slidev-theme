@@ -24,6 +24,8 @@
     "release:create-github-release": "conventional-github-releaser -p angular"
   },
   "dependencies": {
+    "@fontsource/fira-code": "^5.0.8",
+    "@fontsource/pt-sans": "^5.0.8",
     "@slidev/types": "^0.43.3",
     "codemirror-theme-vars": "^0.1.2",
     "prism-theme-vars": "^0.2.4"
@@ -48,8 +50,10 @@
     "highlighter": "all",
     "defaults": {
       "fonts": {
-        "sans": "Nunito Sans",
-        "mono": "Fira Code"
+        "provider": "none",
+        "sans": "PT Sans",
+        "mono": "Fira Code",
+        "local": "PT Sans, 2MASS J1808, Fira Code"
       },
       "hightlighter": "prism"
     }

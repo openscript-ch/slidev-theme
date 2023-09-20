@@ -473,6 +473,16 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.49.0.tgz#86f79756004a97fa4df866835093f1df3d03c333"
   integrity sha512-1S8uAY/MTJqVx0SC4epBq+N2yhuwtNwLbJYNZyhL2pO1ZVKn5HFXav5T41Ryzy9K9V7ZId2JB2oy/W4aCd9/2w==
 
+"@fontsource/fira-code@^5.0.8":
+  version "5.0.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/fira-code/-/fira-code-5.0.8.tgz#d6af374e1d0226c52eb1ee3d07ed6f9543a19fd4"
+  integrity sha512-kp/tJUVnjaZeLHENMBFTTSgP2B7+/rIboeofuMfoGB40s2U0DKXNqQcOqIF5PtDhJ5QTG1LcviYXMnc1yG6oYQ==
+
+"@fontsource/pt-sans@^5.0.8":
+  version "5.0.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/pt-sans/-/pt-sans-5.0.8.tgz#91b3a432b614b180d3f232c9be83fab18bb677b5"
+  integrity sha512-YCn2rcHLdQUNcTzrrHpPzzLqMat2s1TUTcBDXIHgHpUNar3jkrZ9U0wNGczu0C0WgFzUFShDtRUl3PehDi9P+g==
+
 "@hedgedoc/markdown-it-plugins@^2.1.4":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hedgedoc/markdown-it-plugins/-/markdown-it-plugins-2.1.4.tgz#dfc666f54928f1c55a0e7d0e345e2c7204333545"

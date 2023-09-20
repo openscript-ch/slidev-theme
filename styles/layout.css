@@ -1,3 +1,61 @@
+/* PT Sans */
+
+@font-face {
+	font-family: 'PT Sans';
+	font-display: swap;
+	font-weight: 400;
+	src: url('@fontsource/pt-sans/files/pt-sans-latin-ext-400-normal.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'PT Sans';
+	font-display: swap;
+	font-weight: 400;
+	font-style: italic;
+	src: url('@fontsource/pt-sans/files/pt-sans-latin-ext-400-italic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'PT Sans';
+	font-display: swap;
+	font-weight: 700;
+	src: url('@fontsource/pt-sans/files/pt-sans-latin-ext-700-normal.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'PT Sans';
+	font-display: swap;
+	font-weight: 700;
+	font-style: italic;
+	src: url('@fontsource/pt-sans/files/pt-sans-latin-ext-700-italic.woff2') format('woff2');
+}
+
+/* 2MASSJ1808 */
+
+@font-face {
+	font-family: '2MASS J1808';
+	font-display: swap;
+	font-weight: normal;
+	src: url(./fonts/2MASSJ1808-Normal.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: '2MASS J1808';
+	font-display: swap;
+	font-weight: 900;
+	src: url(./fonts/2MASSJ1808-Heavy.woff2) format('woff2');
+}
+
+/* Fira Code */
+
+@font-face {
+	font-family: 'Fira Code';
+	font-display: swap;
+	font-weight: 400;
+	src: url('@fontsource/fira-code/files/fira-code-latin-400-normal.woff2') format('woff2');
+}
+
+
 :root {
   --slidev-theme-primary: #539350;
   --slidev-theme-secondary: #fa5100;
@@ -14,31 +72,31 @@ h4,
 h5,
 h6 {
   color: var(--slidev-theme-primary);
+  font-family: "2MASS J1808";
 }
 
 h1 {
-  font-size: 2.3rem;
-  font-weight: bold;
+  font-size: 1.4rem;
 }
 
 h2 {
-  font-size: 2.0rem;
+  font-size: 1.2rem;
 }
 
 h3 {
-  font-size: 1.7rem;
+  font-size: 1rem;
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 0.9rem;
 }
 
 h5 {
-  font-size: 1.3rem;
+  font-size: 0.8rem;
 }
 
 h6 {
-  font-size: 1.1rem;
+  font-size: 0.7rem;
 }
 
 .slidev-layout {
@@ -46,11 +104,11 @@ h6 {
 }
 
 .slidev-layout > div > *:not(:first-child), .slidev-layout > *:not(:first-child) {
-  margin-top: 0.5em;
+  margin-top: 0.75em;
 }
 
 #slideshow > div {
-  background-image: url(brand-aslant-light.svg), url(divider-top.svg), url(divider-bottom.svg);
+  background-image: url(./images/brand-aslant-light.svg), url(./images/divider-top.svg), url(./images/divider-bottom.svg);
   background-repeat: no-repeat;
   background-position: calc(100% - 3rem) calc(100% - 1.75rem), top, bottom;
   background-size: 8rem, 100%, 100%;
@@ -62,6 +120,6 @@ h6 {
 
 @media (prefers-color-scheme: dark) {
   #slideshow > div {
-    background-image: url(brand-aslant-dark.svg), url(divider-top.svg), url(divider-bottom.svg);
+    background-image: url(./images/brand-aslant-dark.svg), url(./images/divider-top.svg), url(./images/divider-bottom.svg);
   }
 }
