@@ -13,6 +13,8 @@
   },
   "scripts": {
     "build": "slidev build example.md",
+    "check:format": "eslint . --max-warnings 0",
+    "check:types": "tsc --noEmit",
     "dev": "slidev example.md",
     "export": "slidev export example.md",
     "screenshot": "slidev export example.md --format png",
@@ -28,10 +30,18 @@
   },
   "devDependencies": {
     "@slidev/cli": "^0.43.3",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
     "conventional-github-releaser": "^3.1.5",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^39.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^9.17.0",
     "npm-check": "^6.0.1",
     "playwright-chromium": "^1.38.0",
-    "standard-version": "^9.5.0"
+    "standard-version": "^9.5.0",
+    "typescript": "*"
   },
   "slidev": {
     "colorSchema": "both",
