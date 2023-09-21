@@ -111,7 +111,7 @@ h6 {
   background-image: url(./images/brand-aslant-light.svg), url(./images/divider-top.svg), url(./images/divider-bottom.svg);
   background-repeat: no-repeat;
   background-position: calc(100% - 3rem) calc(100% - 1.75rem), top, bottom;
-  background-size: 8rem, 100%, 100%;
+  background-size: 8rem, 102%, 102%;
 }
 
 #slideshow > div > div {
