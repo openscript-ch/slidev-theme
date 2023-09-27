@@ -831,10 +831,15 @@
     "@slidev/types" "0.43.5"
     js-yaml "^4.1.0"
 
-"@slidev/types@0.43.5", "@slidev/types@^0.43.3":
+"@slidev/types@0.43.5":
   version "0.43.5"
   resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.43.5.tgz#785bec4e1766a84a839f6881a0cf2c27ccd502e5"
   integrity sha512-WHCwhZFw3KoMj6L32mn/MKpBjcOcHIyHFUuB1+ljldkEAUWdF5hCu/BfyDWkFcidTpWWDAcNuxqv42wp1a6JZg==
+
+"@slidev/types@^0.43.3":
+  version "0.43.6"
+  resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.43.6.tgz#5d6b9c9ad3d49771f371ab5481f724b88895dc0a"
+  integrity sha512-a3g+ZQ83YkWXkMpOwQ8NY/HtN7oFfPaWf+8ON67vSSIxSQDqG3ziOcACaupKam0JXj+U2SnB/bPavqPk9LWEvQ==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
