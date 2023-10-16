@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1600" height="54" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" version="1.1" viewBox="0 0 1600 54" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-    <g transform="matrix(2.2851 0 0 .92363 1.788e-5 8.0003)" fill="#529450">
-        <path d="m115.53 0-115.53 43.307v-51.969h700.2l0.00157 8.6617z" fill="#529450"/>
-    </g>
-    <g transform="matrix(2.2851 0 0 .92363 1.788e-5 8.0003)" fill="#5da450">
-        <path d="m700.2 49.803-584.67-43.307-115.53 43.307v-6.496l115.53-43.307h584.67z" fill="#5da450"/>
-    </g>
+<svg width="1600" height="54" style="clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" version="1.1" viewBox="0 0 1600 54" xmlns="http://www.w3.org/2000/svg">
+ <g transform="matrix(2.2851 0 0 .92363 1.788e-5 8.0003)" style="fill:#5da450">
+  <path d="m700.2 49.803-584.67-43.307-115.53 43.307v-8.6614l115.53-43.307h584.67z" style="fill:#5da450"/>
+ </g>
+ <g transform="matrix(2.2851 0 0 .92363 1.788e-5 8.0003)" style="fill:#529450">
+  <path d="m115.53 0-115.53 43.307v-51.969h700.2l0.00157 8.6617z" style="fill:#529450"/>
+ </g>
 </svg>

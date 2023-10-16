@@ -77,6 +77,7 @@ h6 {
 
 h1 {
   font-size: 1.4rem;
+	font-weight: bold;
 }
 
 h2 {
@@ -100,7 +101,7 @@ h6 {
 }
 
 .slidev-layout {
-  padding: 4rem 3rem;
+  padding: 3rem 3rem;
 }
 
 .slidev-layout > div > *:not(:first-child), .slidev-layout > *:not(:first-child) {
@@ -108,9 +109,9 @@ h6 {
 }
 
 #slideshow > div {
-  background-image: url(./images/brand-aslant-light.svg), url(./images/divider-top.svg), url(./images/divider-bottom.svg);
+  background-image: url(./images/brand-aslant-light.svg), url(./images/divider-bottom.svg);
   background-repeat: no-repeat;
-  background-position: calc(100% - 3rem) calc(100% - 1.75rem), top, bottom;
+  background-position: calc(100% - 3rem) calc(100% - 1.75rem), bottom;
   background-size: 8rem, 102%, 102%;
 }
 
@@ -120,6 +121,6 @@ h6 {
 
 @media (prefers-color-scheme: dark) {
   #slideshow > div {
-    background-image: url(./images/brand-aslant-dark.svg), url(./images/divider-top.svg), url(./images/divider-bottom.svg);
+    background-image: url(./images/brand-aslant-dark.svg), url(./images/divider-bottom.svg);
   }
 }
