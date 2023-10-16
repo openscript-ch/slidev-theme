@@ -1,5 +1,6 @@
 ---
 theme: ./
+layout: cover
 ---
 
 # openscript Ltd. theme starter
