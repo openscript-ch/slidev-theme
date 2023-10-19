@@ -494,9 +494,9 @@
   integrity sha512-HxjQ8Qn+4SI3/AFv6sOrDB+g6PpUTDwSJiQqOrnneEk8L71161srI9gjzzZvYVbzHiVg/BvcH95+cK/zfIt4pg==
 
 "@fontsource/fira-code@^5.0.8":
-  version "5.0.13"
-  resolved "https://registry.yarnpkg.com/@fontsource/fira-code/-/fira-code-5.0.13.tgz#d64ace14ae7e585ba2909fd2f177831fda211358"
-  integrity sha512-OfXFu05YOnBebYK0XPDhb6u8t6/eicj7WE5UYzOTvF8hGexrFvZIVFSBBmTmurtDZdJnvAHAw1beSbDIZSjiaA==
+  version "5.0.14"
+  resolved "https://registry.yarnpkg.com/@fontsource/fira-code/-/fira-code-5.0.14.tgz#01bf0463c5e897a638a9e82e0fdb5a2ee8749707"
+  integrity sha512-XAATSwSME0Lx4Pxk67QJhMiX6tpJxf9oc73s+EoXSqW8Qiko8gy+3enfDdVPnducwIv8+CGduQmhYkqs03q8xA==
 
 "@fontsource/pt-sans@^5.0.8":
   version "5.0.8"
