@@ -32,7 +32,6 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 
 Read more about [Why Slidev?](https://sli.dev/guide/why)
 
-
 ---
 
 # Navigation
@@ -47,6 +46,18 @@ Hover on the bottom-left corner to see the navigation's controls panel
 | <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
 | <kbd>up</kbd> | previous slide |
 | <kbd>down</kbd> | next slide |
+
+---
+
+# Lists
+
+- This
+- are
+- bullet points.
+
+1. This
+1. is
+1. an enumerated list.
 
 ---
 layout: image-right

@@ -73,30 +73,31 @@ h5,
 h6 {
   color: var(--slidev-theme-primary);
   font-family: "2MASS J1808";
+	margin-bottom: 0 !important;
 }
 
-h1 {
+.slidev-layout h1 {
   font-size: 1.4rem;
 	font-weight: bold;
 }
 
-h2 {
+.slidev-layout h2 {
   font-size: 1.2rem;
 }
 
-h3 {
+.slidev-layout h3 {
   font-size: 1rem;
 }
 
-h4 {
+.slidev-layout h4 {
   font-size: 0.9rem;
 }
 
-h5 {
+.slidev-layout h5 {
   font-size: 0.8rem;
 }
 
-h6 {
+.slidev-layout h6 {
   font-size: 0.7rem;
 }
 
