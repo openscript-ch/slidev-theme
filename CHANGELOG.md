@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.2](https://github.com/openscript-ch/slidev-theme/compare/v0.4.1...v0.4.2) (2023-10-22)
+
+
+### Features
+
+* add components ([ff7e080](https://github.com/openscript-ch/slidev-theme/commit/ff7e0804bf2560940870f06bffd515097be05f5a))
+
 ### [0.4.1](https://github.com/openscript-ch/slidev-theme/compare/v0.4.0...v0.4.1) (2023-10-22)
 
 
