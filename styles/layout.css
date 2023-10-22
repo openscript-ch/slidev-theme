@@ -102,8 +102,6 @@ h6 {
 }
 
 .slidev-layout {
-	display: flex;
-	flex-direction: column;
   padding: 3rem 3rem;
 }
 

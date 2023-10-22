@@ -8,7 +8,7 @@ layout: cover
 Presentation slides for developers
 
 <div class="pt-12">
-  <span @click="next" class="px-2 p-1 rounded cursor-pointer hover:bg-white hover:bg-opacity-10">
+  <span @click="next" class="px-2 p-1 rounded cursor-pointer bg-green hover:bg-white hover:bg-opacity-10">
     Press Space for next page <carbon:arrow-right class="inline"/>
   </span>
 </div>
@@ -26,9 +26,6 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 - 🎥 **Recording** - built-in recording and camera view
 - 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
 - 🛠 **Hackable** - anything possible on a webpage
-
-<br>
-<br>
 
 Read more about [Why Slidev?](https://sli.dev/guide/why)
 
