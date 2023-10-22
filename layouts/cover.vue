@@ -5,3 +5,10 @@
     </div>
   </div>
 </template>
+
+<style>
+  .slidev-layout.cover {
+    display: flex;
+    flex-direction: column;
+  }
+</style>
