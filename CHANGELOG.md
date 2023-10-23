@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.6](https://github.com/openscript-ch/slidev-theme/compare/v0.4.5...v0.4.6) (2023-10-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @fontsource/fira-code to v5.0.15 ([b927744](https://github.com/openscript-ch/slidev-theme/commit/b92774458dd6229219e663c5ec88d71d0766176e))
+* task recursion ([e88b5b7](https://github.com/openscript-ch/slidev-theme/commit/e88b5b7cbc971a31880513a0104904f72c25faf8))
+
 ### [0.4.5](https://github.com/openscript-ch/slidev-theme/compare/v0.4.4...v0.4.5) (2023-10-22)
 
 
