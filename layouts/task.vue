@@ -19,9 +19,9 @@ defineProps({
 </script>
 
 <template>
-  <div class="slidev-layout default">
+  <div class="slidev-layout task">
     <div class="my-auto">
-      <Task :number="number" :title="name" :time="time" :method="method" :result="result" />
+      <TaskHeader :number="number" :title="name" :time="time" :method="method" :result="result" />
       <slot />
     </div>
   </div>
