@@ -109,6 +109,10 @@ h6 {
   margin-top: 0.75em;
 }
 
+.slidev-layout.two-cols-header {
+	grid-template-rows: repeat(2, min-content);
+}
+
 #slideshow > div {
   background-image: url(./images/brand-aslant-light.svg), url(./images/divider-bottom.svg);
   background-repeat: no-repeat;

@@ -29,6 +29,23 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 
 Read more about [Why Slidev?](https://sli.dev/guide/why)
 
+
+---
+layout: two-cols-header
+---
+
+# Two column header
+
+::left::
+
+- Left
+  - Awesome
+
+::right::
+
+- Right
+  - Awesome
+
 ---
 
 # Navigation
