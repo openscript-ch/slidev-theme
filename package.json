@@ -26,12 +26,12 @@
   "dependencies": {
     "@fontsource/fira-code": "^5.0.8",
     "@fontsource/pt-sans": "^5.0.8",
-    "@slidev/types": "^0.43.3",
+    "@slidev/types": "^0.44.0",
     "codemirror-theme-vars": "^0.1.2",
     "prism-theme-vars": "^0.2.4"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.43.3",
+    "@slidev/cli": "^0.44.0",
     "@typescript-eslint/eslint-plugin": "^6.4.0",
     "conventional-github-releaser": "^3.1.5",
     "eslint": "^8.0.1",
