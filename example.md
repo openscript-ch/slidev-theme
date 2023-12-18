@@ -1,6 +1,7 @@
 ---
 theme: ./
 layout: cover
+background: /background.jpg
 ---
 
 # openscript Ltd. theme starter
