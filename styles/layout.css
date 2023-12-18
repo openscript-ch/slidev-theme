@@ -70,11 +70,11 @@ html {
 	font-weight: bold;
 }
 
-li::marker {
+ul li::marker {
 	content: '> ';
 }
 
-li li::marker {
+ul li li::marker {
 	content: '- ';
 }
 
