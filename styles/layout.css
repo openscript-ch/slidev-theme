@@ -65,9 +65,13 @@ html {
   font-size: 18px;
 }
 
+::marker {
+	font-family: monospace;
+	font-weight: bold;
+}
+
 li::marker {
 	content: '> ';
-	font-family: monospace;
 }
 
 li li::marker {
