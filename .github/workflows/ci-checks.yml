@@ -10,20 +10,23 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Use nodejs
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20.x'
-          cache: "yarn"
+          node-version: "20"
+          cache: "pnpm"
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: Check types
-        run: yarn check:types
+        run: pnpm check:types
 
       - name: Check formatting
-        run: yarn check:format
+        run: pnpm check:format
 
       - name: Try to build
-        run: yarn build
+        run: pnpm build
