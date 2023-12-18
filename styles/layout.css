@@ -70,14 +70,6 @@ html {
 	font-weight: bold;
 }
 
-ul li::marker {
-	content: '> ';
-}
-
-ul li li::marker {
-	content: '- ';
-}
-
 h1,
 h2,
 h3,
@@ -112,6 +104,18 @@ h6 {
 
 .slidev-layout h6 {
   font-size: 0.7rem;
+}
+
+.slidev-layout ul li::marker {
+	content: '> ';
+}
+
+.slidev-layout ul li li::marker {
+	content: '- ';
+}
+
+.slidev-layout li {
+	margin-left: 2rem;
 }
 
 .slidev-layout {
