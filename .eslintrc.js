@@ -24,11 +24,13 @@ module.exports = {
     parser: '@typescript-eslint/parser',
     project: './tsconfig.json',
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
+    extraFileExtensions: ['.vue']
   },
   plugins: [
     'vue'
   ],
   rules: {
+    'vue/multi-word-component-names': 'off'
   }
 }
