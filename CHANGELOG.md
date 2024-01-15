@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.6.0](https://github.com/openscript-ch/slidev-theme/compare/v0.5.6...v0.6.0) (2024-01-15)
+
+
+### Features
+
+* add qr code component ([3a67b52](https://github.com/openscript-ch/slidev-theme/commit/3a67b526441113496c8770d192207bde67874559))
+
 ### [0.5.6](https://github.com/openscript-ch/slidev-theme/compare/v0.5.5...v0.5.6) (2024-01-03)
 
 ### [0.5.5](https://github.com/openscript-ch/slidev-theme/compare/v0.5.4...v0.5.5) (2023-12-18)
