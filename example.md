@@ -97,6 +97,15 @@ function updateUser(id: number, update: Partial<User>) {
   saveUser(id, newUser)
 }
 ```
+---
+
+# QR-Code
+
+```html
+<QRCode value="https://openscript.ch" style="width: 200px" />
+```
+
+<QRCode value="https://openscript.ch" style="width: 200px" />
 
 ---
 layout: center

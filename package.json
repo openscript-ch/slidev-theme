@@ -25,6 +25,7 @@
     "release:create-github-release": "conventional-github-releaser -p angular"
   },
   "dependencies": {
+    "@chenfengyuan/vue-qrcode": "^2.0.0",
     "@fontsource/fira-code": "^5.0.16",
     "@fontsource/pt-sans": "^5.0.8",
     "@slidev/types": "^0.46.1",
