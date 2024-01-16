@@ -1,6 +1,6 @@
 {
   "name": "@openscript-ch/slidev-theme",
-  "description": "Our companys (openscript Ltd.) slidev theme.",
+  "description": "Our companies (openscript Ltd.) slidev theme.",
   "version": "0.6.1",
   "type": "module",
   "keywords": [
@@ -26,7 +26,6 @@
     "release:create-github-release": "conventional-github-releaser -p angular"
   },
   "dependencies": {
-    "@chenfengyuan/vue-qrcode": "^2.0.0",
     "@fontsource/fira-code": "^5.0.16",
     "@fontsource/pt-sans": "^5.0.8",
     "@slidev/types": "^0.46.1",
@@ -49,7 +48,8 @@
     "typescript": "^5.3.3"
   },
   "peerDependencies": {
-    "sass": "^1.69.4"
+    "sass": "^1.69.4",
+    "@chenfengyuan/vue-qrcode": "^2.0.0"
   },
   "slidev": {
     "colorSchema": "both",
