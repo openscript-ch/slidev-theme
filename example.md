@@ -44,8 +44,14 @@ layout: two-cols-header
 
 ::right::
 
-- Right
-  - Awesome
+Lorem Lorem Lorem
+
+---
+
+# Title ...
+## Subtitle
+
+Bliblablub
 
 ---
 
