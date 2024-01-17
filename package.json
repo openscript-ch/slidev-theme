@@ -26,12 +26,12 @@
     "release:create-github-release": "conventional-github-releaser -p angular"
   },
   "dependencies": {
+    "@chenfengyuan/vue-qrcode": "^2.0.0",
     "@fontsource/fira-code": "^5.0.16",
     "@fontsource/pt-sans": "^5.0.8",
     "@slidev/types": "^0.46.1",
     "codemirror-theme-vars": "^0.1.2",
-    "prism-theme-vars": "^0.2.4",
-    "@chenfengyuan/vue-qrcode": "^2.0.0"
+    "prism-theme-vars": "^0.2.4"
   },
   "devDependencies": {
     "@slidev/cli": "^0.46.1",
@@ -44,7 +44,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-vue": "^9.20.1",
     "npm-check": "^6.0.1",
-    "playwright-chromium": "^1.40.1",
+    "playwright-chromium": "^1.41.0",
     "standard-version": "^9.5.0",
     "typescript": "^5.3.3"
   },
