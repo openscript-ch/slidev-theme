@@ -30,6 +30,19 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 
 Read more about [Why Slidev?](https://sli.dev/guide/why)
 
+---
+layout: task
+name: Task Layout
+time: 30min
+method: Work in Groups
+---
+
+Describe the most important steps of the task here:
+
+1. First go there
+1. Then do this
+1. Finally..
+
 
 ---
 layout: two-cols-header
