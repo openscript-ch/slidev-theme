@@ -39,7 +39,9 @@ method: Work in Groups
 
 Describe the most important steps of the task here:
 
-1. First go there
+1. **First** go there
+   - One
+   - Two
 1. Then do this
 1. Finally..
 

@@ -121,8 +121,13 @@ h6 {
 	content: '- ';
 }
 
-.slidev-layout ul {
+.slidev-layout ul, .slidev-layout ol, .slidev-layout dl {
 	margin-top: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+.slidev-layout li ul, .slidev-layout li ol, .slidev-layout li dl {
+	margin-top: 0;
 }
 
 .slidev-layout li {
