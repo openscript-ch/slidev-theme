@@ -143,8 +143,13 @@ h6 {
   margin-top: 1em;
 }
 
+.slidev-layout.two-cols {
+	gap: 1rem;
+}
+
 .slidev-layout.two-cols-header {
 	grid-template-rows: repeat(2, min-content);
+	gap: 1rem;
 }
 
 .slidev-layout.two-cols-header > div {
