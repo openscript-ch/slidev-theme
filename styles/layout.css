@@ -142,13 +142,12 @@ h6 {
 	z-index: 1 !important;
 }
 
-.slidev-layout.two-cols {
-	gap: 1rem;
+.slidev-layout.two-cols, .slidev-layout.two-cols-header {
+	gap: 0.25rem 1rem;
 }
 
 .slidev-layout.two-cols-header {
 	grid-template-rows: repeat(2, min-content);
-	gap: 1rem;
 }
 
 .slidev-layout.two-cols-header > div {
