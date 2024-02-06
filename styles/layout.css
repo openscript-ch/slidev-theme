@@ -108,9 +108,12 @@ h6 {
 }
 
 .slidev-layout h1 + h2 {
-	margin-top: 0 !important;
 	color: var(--slidev-theme-primary-alternative);
 	font-size: 1rem;
+}
+
+.slidev-layout h1 + * {
+	margin-top: 0.5rem !important;
 }
 
 .slidev-layout ul li::marker {
@@ -137,10 +140,6 @@ h6 {
 .slidev-layout {
   padding: 1.9rem 3rem 3rem 3rem;
 	z-index: 1 !important;
-}
-
-.slidev-layout > div > *:not(:first-child), .slidev-layout > *:not(:first-child) {
-  margin-top: 1em;
 }
 
 .slidev-layout.two-cols {

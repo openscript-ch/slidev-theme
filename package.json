@@ -52,15 +52,15 @@
   },
   "slidev": {
     "colorSchema": "both",
-    "highlighter": "all",
     "defaults": {
+      "lineNumbers": true,
+      "highlighter": "prism",
       "fonts": {
         "provider": "none",
         "sans": "PT Sans",
         "mono": "Fira Code",
         "local": "PT Sans, 2MASS J1808, Fira Code"
-      },
-      "hightlighter": "prism"
+      }
     }
   }
 }
