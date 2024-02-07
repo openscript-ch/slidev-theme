@@ -29,12 +29,12 @@
     "@chenfengyuan/vue-qrcode": "^2.0.0",
     "@fontsource/fira-code": "^5.0.16",
     "@fontsource/pt-sans": "^5.0.8",
-    "@slidev/types": "^0.47.3",
+    "@slidev/types": "^0.47.4",
     "codemirror-theme-vars": "^0.1.2",
     "prism-theme-vars": "^0.2.4"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.47.3",
+    "@slidev/cli": "^0.47.4",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "conventional-github-releaser": "^3.1.5",
     "eslint": "^8.56.0",
@@ -54,7 +54,6 @@
     "colorSchema": "both",
     "defaults": {
       "lineNumbers": true,
-      "highlighter": "prism",
       "fonts": {
         "provider": "none",
         "sans": "PT Sans",
