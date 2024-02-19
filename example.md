@@ -59,7 +59,9 @@ layout: two-cols-header
 
 ::right::
 
-Lorem Lorem Lorem
+```javascript
+console.log("With some code");
+```
 
 ---
 
@@ -67,6 +69,12 @@ Lorem Lorem Lorem
 ## Subtitle
 
 Bliblablub
+
+---
+
+# Math
+
+$\sqrt{3x-1}+(1+x)^2$
 
 ---
 
