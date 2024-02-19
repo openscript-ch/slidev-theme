@@ -82,6 +82,10 @@ h6 {
 	margin-bottom: 0 !important;
 }
 
+.slidev-layout p, .slidev-layout li {
+	line-height: 1.5;
+}
+
 .slidev-layout h1 {
   font-size: 1.4rem;
 	font-weight: bold;

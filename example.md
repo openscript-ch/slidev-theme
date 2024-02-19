@@ -100,7 +100,7 @@ layout: image-right
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 ---
 
-# Code
+# Code `Code`
 
 Use code snippets and get the highlighting directly!
 
