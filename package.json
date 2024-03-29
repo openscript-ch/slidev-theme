@@ -29,12 +29,12 @@
     "@chenfengyuan/vue-qrcode": "^2.0.0",
     "@fontsource/fira-code": "^5.0.17",
     "@fontsource/pt-sans": "^5.0.12",
-    "@slidev/types": "^0.48.7",
+    "@slidev/types": "^0.48.8",
     "codemirror-theme-vars": "^0.1.2",
     "prism-theme-vars": "^0.2.4"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.48.7",
+    "@slidev/cli": "^0.48.8",
     "@typescript-eslint/eslint-plugin": "^7.4.0",
     "conventional-github-releaser": "^3.1.5",
     "eslint": "^8.57.0",
