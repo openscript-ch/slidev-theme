@@ -6,7 +6,6 @@
 			"extensions": [
 				"antfu.slidev",
 				"github.vscode-github-actions",
-				"Vue.vscode-typescript-vue-plugin",
 				"Vue.volar",
 				"antfu.unocss"
 			]
