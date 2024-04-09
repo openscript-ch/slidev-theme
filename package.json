@@ -35,17 +35,17 @@
   },
   "devDependencies": {
     "@slidev/cli": "^0.48.8",
-    "@typescript-eslint/eslint-plugin": "^7.4.0",
+    "@typescript-eslint/eslint-plugin": "^7.6.0",
     "conventional-github-releaser": "^3.1.5",
     "eslint": "^8.57.0",
     "eslint-config-standard-with-typescript": "^43.0.1",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-n": "^17.1.0",
     "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-vue": "^9.24.0",
-    "playwright-chromium": "^1.42.1",
+    "eslint-plugin-vue": "^9.24.1",
+    "playwright-chromium": "^1.43.0",
     "standard-version": "^9.5.0",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.4"
   },
   "peerDependencies": {
     "sass": "^1.69.4"

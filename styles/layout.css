@@ -158,6 +158,10 @@ h6 {
 	margin: 0;
 }
 
+.slidev-layout.cover {
+	background-repeat: no-repeat;
+}
+
 .col-right pre:first-of-type, .col-left pre:first-of-type {
   margin-top: 1rem;
 }
