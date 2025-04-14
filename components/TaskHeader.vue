@@ -14,6 +14,9 @@ defineProps({
   },
   result: {
     required: true
+  },
+  ai: {
+    required: true
   }
 })
 </script>
@@ -52,5 +55,6 @@ ul.task-description {
     <li v-if="time"><span>Zeit:</span><span>{{ time }}</span></li>
     <li v-if="method"><span>Methode:</span><span>{{ method }}</span></li>
     <li v-if="result"><span>Ergebnis:</span><span>{{ result }}</span></li>
+    <li v-if="ai"><span>AI-Tools:</span><span>{{ ai === "off" ? "🟥 keine Nutzung" : ai === "partially" ? "🟠 kein Codegenerieren" : "💚 alles was geht" }}</span></li>
   </ul>
 </template>

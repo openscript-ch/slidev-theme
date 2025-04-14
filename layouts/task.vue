@@ -14,6 +14,10 @@ defineProps({
   },
   result: {
     type: String
+  },
+  ai: {
+    type: String as () => 'off' | 'partially' | 'yes',
+    default: 'off'
   }
 })
 </script>
@@ -21,7 +25,7 @@ defineProps({
 <template>
   <div class="slidev-layout task">
     <div class="my-auto">
-      <TaskHeader :number="number" :title="name" :time="time" :method="method" :result="result" />
+      <TaskHeader :number="number" :title="name" :time="time" :method="method" :result="result" :ai="ai" />
       <slot />
     </div>
   </div>

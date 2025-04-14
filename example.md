@@ -35,6 +35,7 @@ layout: task
 name: Task Layout
 time: 30min
 method: Work in Groups
+ai: on
 ---
 
 Describe the most important steps of the task here:
