@@ -13,7 +13,7 @@ dependencies:
     version: 5.2.6
   '@fontsource/pt-sans':
     specifier: ^5.2.5
-    version: 5.2.5
+    version: 5.2.6
   '@slidev/types':
     specifier: ^51.5.0
     version: 51.8.1(@vue/compiler-sfc@3.5.16)(postcss@8.5.4)(typescript@5.8.3)(vite@6.3.5)
@@ -831,8 +831,8 @@ packages:
     resolution: {integrity: sha512-wCkIpPm0BqlkCPLYeY4Vui96ODmVUV0/GpEe3OfJ4v8EJn/BF2SlyxvarFsTs1CKiGjrO2cXlIZbBrKi9F+hUQ==}
     dev: false
 
-  /@fontsource/pt-sans@5.2.5:
-    resolution: {integrity: sha512-bqJiRpuUwKjNjHWVI97dLLulL+8SdvfZqpNePKyZRooZ5RMeD5eIbW4F5DiQM/nR/WWlT6SL01sHOjbc51y+qQ==}
+  /@fontsource/pt-sans@5.2.6:
+    resolution: {integrity: sha512-II32bzPO+jDXkiDakb2SlsPv7EHa7+NBzvzPOzOaOneNnyht2h2JgF5uxRZ+dCsV/35/hvDam1kuGYyFqcqUbA==}
     dev: false
 
   /@humanfs/core@0.19.1:
