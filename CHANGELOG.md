@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.10.0](https://github.com/openscript-ch/slidev-theme/compare/v0.9.0...v0.10.0) (2025-06-12)
+
+
+### Bug Fixes
+
+* **deps:** update all minor dependencies ([#83](https://github.com/openscript-ch/slidev-theme/issues/83)) ([f38cf7a](https://github.com/openscript-ch/slidev-theme/commit/f38cf7a4812f05044f3f11cb55de998ed3dd3c64))
+* **deps:** update all minor dependencies ([#91](https://github.com/openscript-ch/slidev-theme/issues/91)) ([a0e8222](https://github.com/openscript-ch/slidev-theme/commit/a0e82225a4a36410e81eff8fcafc117f0b859f74))
+* **deps:** update all minor dependencies to v51.6.0 ([#74](https://github.com/openscript-ch/slidev-theme/issues/74)) ([80281e9](https://github.com/openscript-ch/slidev-theme/commit/80281e9bd394189b3a3393c8fb1d03cb07f69af4))
+* **deps:** update all minor dependencies to v51.7.1 ([#85](https://github.com/openscript-ch/slidev-theme/issues/85)) ([fedfe25](https://github.com/openscript-ch/slidev-theme/commit/fedfe250b364bc07bac47657f405ac39b39f5c40))
+* **deps:** update all minor dependencies to v51.8.0 ([#87](https://github.com/openscript-ch/slidev-theme/issues/87)) ([18be949](https://github.com/openscript-ch/slidev-theme/commit/18be94910bcb7cb9a27debd872fdc3698fb4a313))
+* **deps:** update dependency @fontsource/fira-code to v5.2.6 ([#78](https://github.com/openscript-ch/slidev-theme/issues/78)) ([d479823](https://github.com/openscript-ch/slidev-theme/commit/d479823dcd251ba8e791c1202e79342a54588151))
+* **deps:** update dependency @fontsource/pt-sans to v5.2.6 ([#94](https://github.com/openscript-ch/slidev-theme/issues/94)) ([052ca35](https://github.com/openscript-ch/slidev-theme/commit/052ca351dfad33c72ff2f9b9694cf5a6b69f10ab))
+
 ## [0.9.0](https://github.com/openscript-ch/slidev-theme/compare/v0.8.3...v0.9.0) (2025-04-14)
 
 ### [0.8.3](https://github.com/openscript-ch/slidev-theme/compare/v0.8.2...v0.8.3) (2024-04-09)
