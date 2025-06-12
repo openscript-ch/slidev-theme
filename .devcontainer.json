@@ -1,14 +1,14 @@
 {
-	"name": "@openscript/slidev-theme",
-	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"antfu.slidev",
-				"github.vscode-github-actions",
-				"Vue.volar",
-				"antfu.unocss"
-			]
-		}
-	}
+  "name": "@openscript/slidev-theme",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bullseye",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "antfu.slidev",
+        "github.vscode-github-actions",
+        "Vue.volar",
+        "antfu.unocss"
+      ]
+    }
+  }
 }
