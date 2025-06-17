@@ -64,6 +64,8 @@ layout: two-cols-header
 console.log("With some code");
 ```
 
+`inline code`
+
 ---
 
 # Title ...
