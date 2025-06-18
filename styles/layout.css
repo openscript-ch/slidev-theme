@@ -1,58 +1,58 @@
 /* PT Sans */
 
 @font-face {
-	font-family: 'PT Sans';
-	font-display: swap;
-	font-weight: 400;
-	src: url('@fontsource/pt-sans/files/pt-sans-latin-ext-400-normal.woff2') format('woff2');
+  font-family: 'PT Sans';
+  font-display: swap;
+  font-weight: 400;
+  src: url('@fontsource/pt-sans/files/pt-sans-latin-ext-400-normal.woff2') format('woff2');
 }
 
 @font-face {
-	font-family: 'PT Sans';
-	font-display: swap;
-	font-weight: 400;
-	font-style: italic;
-	src: url('@fontsource/pt-sans/files/pt-sans-latin-ext-400-italic.woff2') format('woff2');
+  font-family: 'PT Sans';
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: url('@fontsource/pt-sans/files/pt-sans-latin-ext-400-italic.woff2') format('woff2');
 }
 
 @font-face {
-	font-family: 'PT Sans';
-	font-display: swap;
-	font-weight: 700;
-	src: url('@fontsource/pt-sans/files/pt-sans-latin-ext-700-normal.woff2') format('woff2');
+  font-family: 'PT Sans';
+  font-display: swap;
+  font-weight: 700;
+  src: url('@fontsource/pt-sans/files/pt-sans-latin-ext-700-normal.woff2') format('woff2');
 }
 
 @font-face {
-	font-family: 'PT Sans';
-	font-display: swap;
-	font-weight: 700;
-	font-style: italic;
-	src: url('@fontsource/pt-sans/files/pt-sans-latin-ext-700-italic.woff2') format('woff2');
+  font-family: 'PT Sans';
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url('@fontsource/pt-sans/files/pt-sans-latin-ext-700-italic.woff2') format('woff2');
 }
 
 /* 2MASSJ1808 */
 
 @font-face {
-	font-family: '2MASS J1808';
-	font-display: swap;
-	font-weight: normal;
-	src: url(./fonts/2MASSJ1808-Normal.woff2) format('woff2');
+  font-family: '2MASS J1808';
+  font-display: swap;
+  font-weight: normal;
+  src: url(./fonts/2MASSJ1808-Normal.woff2) format('woff2');
 }
 
 @font-face {
-	font-family: '2MASS J1808';
-	font-display: swap;
-	font-weight: 900;
-	src: url(./fonts/2MASSJ1808-Heavy.woff2) format('woff2');
+  font-family: '2MASS J1808';
+  font-display: swap;
+  font-weight: 900;
+  src: url(./fonts/2MASSJ1808-Heavy.woff2) format('woff2');
 }
 
 /* Fira Code */
 
 @font-face {
-	font-family: 'Fira Code';
-	font-display: swap;
-	font-weight: 400;
-	src: url('@fontsource/fira-code/files/fira-code-latin-400-normal.woff2') format('woff2');
+  font-family: 'Fira Code';
+  font-display: swap;
+  font-weight: 400;
+  src: url('@fontsource/fira-code/files/fira-code-latin-400-normal.woff2') format('woff2');
 }
 
 
@@ -67,8 +67,8 @@ html {
 }
 
 ::marker {
-	font-family: monospace;
-	font-weight: bold;
+  font-family: monospace;
+  font-weight: bold;
 }
 
 h1,
@@ -79,16 +79,16 @@ h5,
 h6 {
   color: var(--slidev-theme-primary);
   font-family: "2MASS J1808";
-	margin-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .slidev-layout p, .slidev-layout li {
-	line-height: 1.8;
+  line-height: 1.8;
 }
 
 .slidev-layout h1 {
   font-size: 1.4rem;
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .slidev-layout h2 {
@@ -112,54 +112,55 @@ h6 {
 }
 
 .slidev-layout h1 + h2 {
-	color: var(--slidev-theme-primary-alternative);
-	font-size: 1rem;
+  color: var(--slidev-theme-primary-alternative);
+  font-size: 1rem;
 }
 
 .slidev-layout h1 + * {
-	margin-top: 0.5rem !important;
+  margin-top: 0.5rem !important;
 }
 
 .slidev-layout ul li::marker {
-	content: '> ';
+  content: '> ';
 }
 
 .slidev-layout ul li li::marker {
-	content: '- ';
+  content: '- ';
 }
 
 .slidev-layout ul, .slidev-layout ol, .slidev-layout dl {
-	margin-top: 1rem;
-	margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .slidev-layout li ul, .slidev-layout li ol, .slidev-layout li dl {
-	margin-top: 0;
+  margin-top: 0;
 }
 
 .slidev-layout li {
-	margin-left: 2rem;
+  margin-left: 2rem;
 }
 
 .slidev-layout {
   padding: 1.9rem 3rem 3rem 3rem;
-	z-index: 1 !important;
+  z-index: 1 !important;
 }
 
 .slidev-layout.two-cols, .slidev-layout.two-cols-header {
-	gap: 0.25rem 1rem;
+  gap: 0.25rem 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
 }
 
 .slidev-layout.two-cols-header {
-	grid-template-rows: repeat(2, min-content) !important;
+  grid-template-rows: repeat(2, min-content) !important;
 }
 
 .slidev-layout.two-cols-header > div {
-	margin: 0;
+  margin: 0;
 }
 
 .slidev-layout.cover {
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 
 .col-right pre:first-of-type, .col-left pre:first-of-type {

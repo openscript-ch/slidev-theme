@@ -61,7 +61,7 @@ layout: two-cols-header
 ::right::
 
 ```javascript
-console.log("With some code");
+console.log("With some code"); console.log("With some code"); console.log("With some code");
 ```
 
 `inline code`
