@@ -60,7 +60,7 @@
   --slidev-theme-primary: #539350;
   --slidev-theme-primary-alternative: #8bca88;
   --slidev-theme-secondary: #fa5100;
-  --slidev-theme-background-gray: #e2e2e2;
+  --slidev-theme-background-gray: #eeeeee;
 }
 
 @media (prefers-color-scheme: dark) {
