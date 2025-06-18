@@ -60,6 +60,13 @@
   --slidev-theme-primary: #539350;
   --slidev-theme-primary-alternative: #8bca88;
   --slidev-theme-secondary: #fa5100;
+  --slidev-theme-background-gray: #e2e2e2;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --slidev-theme-background-gray: #2e2e2e;
+  }
 }
 
 html {
@@ -159,8 +166,26 @@ h6 {
   margin: 0;
 }
 
+.slidev-layout th {
+  font-weight: bold;
+  padding: 0.3rem;
+  background-color: var(--slidev-theme-background-gray);
+}
+
+.slidev-layout th:empty {
+  background-color: transparent;
+}
+
+.slidev-layout td {
+  padding: 0.3rem;
+}
+
 .slidev-layout.cover {
   background-repeat: no-repeat;
+}
+
+.slidev-layout + .h-full {
+  z-index: -1;
 }
 
 .col-right pre:first-of-type, .col-left pre:first-of-type {

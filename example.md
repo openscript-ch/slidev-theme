@@ -107,8 +107,19 @@ Hover on the bottom-left corner to see the navigation's controls panel
 1. an enumerated list.
 
 ---
+
+# Tables
+
+| Header 1 | Header 2 | Header 3 |
+| -------- | -------- | -------- |
+| Row 1    | Row 1    | Row 1    |
+| Row 2    | Row 2    | Row 2    |
+| Row 3    | Row 3    | Row 3    |
+| Row 4    | Row 4    | Row 4    |
+
+---
 layout: image-right
-image: 'https://source.unsplash.com/collection/94734566/1920x1080'
+image: 'https://images.unsplash.com/photo-1527095655060-4026c4af2b25?q=80&w=1740'
 ---
 
 # Code `Code`
