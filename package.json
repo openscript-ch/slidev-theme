@@ -29,7 +29,7 @@
     "@chenfengyuan/vue-qrcode": "^2.0.0",
     "@fontsource/fira-code": "^5.2.5",
     "@fontsource/pt-sans": "^5.2.5",
-    "@slidev/types": "^51.5.0",
+    "@slidev/types": "^52.0.0",
     "codemirror-theme-vars": "^0.1.2",
     "prism-theme-vars": "^0.2.5"
   },
