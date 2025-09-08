@@ -34,7 +34,7 @@
     "prism-theme-vars": "^0.2.5"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.12.0",
+    "@antfu/eslint-config": "^5.0.0",
     "@eslint/js": "^9.24.0",
     "@eslint/markdown": "^6.3.0",
     "@slidev/cli": "^51.5.0",
