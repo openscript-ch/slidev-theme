@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.10.5](https://github.com/openscript-ch/slidev-theme/compare/v0.10.4...v0.10.5) (2025-09-10)
+
+
+### Bug Fixes
+
+* darkmode support ([3e4a72f](https://github.com/openscript-ch/slidev-theme/commit/3e4a72fa899bf3e75f6bdea1984430408d726cdb))
+
 ### [0.10.4](https://github.com/openscript-ch/slidev-theme/compare/v0.10.3...v0.10.4) (2025-06-18)
 
 ### [0.10.3](https://github.com/openscript-ch/slidev-theme/compare/v0.10.2...v0.10.3) (2025-06-18)
