@@ -63,10 +63,8 @@
   --slidev-theme-background-gray: #eeeeee;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --slidev-theme-background-gray: #2e2e2e;
-  }
+.dark {
+  --slidev-theme-background-gray: #2e2e2e;
 }
 
 html {
@@ -203,8 +201,6 @@ h6 {
   z-index: -1;
 }
 
-@media (prefers-color-scheme: dark) {
-  #slideshow > div {
-    background-image: url(./images/brand-aslant-dark.svg), url(./images/divider-bottom.svg);
-  }
+.dark #slideshow > div {
+  background-image: url(./images/brand-aslant-dark.svg), url(./images/divider-bottom.svg);
 }

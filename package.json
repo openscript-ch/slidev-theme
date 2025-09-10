@@ -28,25 +28,25 @@
   "dependencies": {
     "@chenfengyuan/vue-qrcode": "^2.0.0",
     "@fontsource/fira-code": "^5.2.5",
-    "@fontsource/pt-sans": "^5.2.5",
-    "@slidev/types": "^51.5.0",
+    "@fontsource/pt-sans": "^5.2.7",
+    "@slidev/types": "^52.1.0",
     "codemirror-theme-vars": "^0.1.2",
     "prism-theme-vars": "^0.2.5"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.12.0",
-    "@eslint/js": "^9.24.0",
-    "@eslint/markdown": "^6.3.0",
-    "@slidev/cli": "^51.5.0",
-    "@typescript-eslint/eslint-plugin": "^8.29.1",
+    "@antfu/eslint-config": "^5.3.0",
+    "@eslint/js": "^9.35.0",
+    "@eslint/markdown": "^7.2.0",
+    "@slidev/cli": "^52.1.0",
+    "@typescript-eslint/eslint-plugin": "^8.43.0",
     "conventional-github-releaser": "^3.1.5",
-    "eslint": "^9.24.0",
-    "eslint-plugin-vue": "^10.0.0",
-    "globals": "^16.0.0",
-    "playwright-chromium": "^1.51.1",
+    "eslint": "^9.35.0",
+    "eslint-plugin-vue": "^10.4.0",
+    "globals": "^16.4.0",
+    "playwright-chromium": "^1.55.0",
     "standard-version": "^9.5.0",
-    "typescript": "^5.8.3",
-    "typescript-eslint": "^8.29.1"
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.43.0"
   },
   "peerDependencies": {
     "sass": "^1.69.4"
