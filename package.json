@@ -12,7 +12,7 @@
   "engines": {
     "node": ">=20.0.0"
   },
-  "packageManager": "pnpm@10.19.0",
+  "packageManager": "pnpm@10.20.0",
   "scripts": {
     "build": "slidev build example.md",
     "check:format": "eslint . --max-warnings 0",
