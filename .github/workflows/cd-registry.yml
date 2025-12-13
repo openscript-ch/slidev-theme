@@ -21,7 +21,7 @@ jobs:
       - name: Configure node for NPM registry as registry
         uses: actions/setup-node@v6
         with:
-          node-version: '24.x'
+          node-version: "24"
           cache: "pnpm"
           registry-url: 'https://registry.npmjs.org'
           scope: '@openscript-ch'
@@ -34,14 +34,15 @@ jobs:
         env:
           CONVENTIONAL_GITHUB_RELEASER_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
-      - run: pnpm publish --access public --no-git-checks
+      - name: Publish package on NPM registry
+        run: pnpm publish --access public --no-git-checks --provenance
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Configure node for Github registry as registry
         uses: actions/setup-node@v6
         with:
-          node-version: '24.x'
+          node-version: "24"
           registry-url: 'https://npm.pkg.github.com'
           scope: '@openscript-ch'
 
