@@ -1,7 +1,7 @@
 {
   "name": "@openscript-ch/slidev-theme",
   "description": "Our companies (openscript Ltd.) slidev theme.",
-  "version": "0.10.8",
+  "version": "0.10.9",
   "type": "module",
   "repository": {
     "type": "git",
