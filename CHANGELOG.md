@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.10.11](https://github.com/openscript-ch/slidev-theme/compare/v0.10.10...v0.10.11) (2026-01-05)
+
 ### [0.10.10](https://github.com/openscript-ch/slidev-theme/compare/v0.10.9...v0.10.10) (2025-12-13)
 
 ### [0.10.9](https://github.com/openscript-ch/slidev-theme/compare/v0.10.8...v0.10.9) (2025-12-13)
