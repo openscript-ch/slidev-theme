@@ -57,10 +57,10 @@
 
 
 :root {
-  --slidev-theme-primary: #539350;
-  --slidev-theme-primary-alternative: #8bca88;
-  --slidev-theme-secondary: #fa5100;
-  --slidev-theme-background-gray: #eeeeee;
+  --slidev-theme-primary: #539350 !important;
+  --slidev-theme-primary-alternative: #8bca88 !important;
+  --slidev-theme-secondary: #fa5100 !important;
+  --slidev-theme-background-gray: #eeeeee !important;
 }
 
 .dark {
@@ -87,7 +87,8 @@ h6 {
   margin-bottom: 0 !important;
 }
 
-.slidev-layout p, .slidev-layout li {
+.slidev-layout p,
+.slidev-layout li {
   line-height: 1.8;
 }
 
@@ -116,12 +117,12 @@ h6 {
   font-size: 0.7rem;
 }
 
-.slidev-layout h1 + h2 {
+.slidev-layout h1+h2 {
   color: var(--slidev-theme-primary-alternative);
   font-size: 1rem;
 }
 
-.slidev-layout h1 + * {
+.slidev-layout h1+* {
   margin-top: 0.5rem !important;
 }
 
@@ -133,12 +134,16 @@ h6 {
   content: '- ';
 }
 
-.slidev-layout ul, .slidev-layout ol, .slidev-layout dl {
+.slidev-layout ul,
+.slidev-layout ol,
+.slidev-layout dl {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
 }
 
-.slidev-layout li ul, .slidev-layout li ol, .slidev-layout li dl {
+.slidev-layout li ul,
+.slidev-layout li ol,
+.slidev-layout li dl {
   margin-top: 0;
 }
 
@@ -151,7 +156,8 @@ h6 {
   z-index: 1 !important;
 }
 
-.slidev-layout.two-cols, .slidev-layout.two-cols-header {
+.slidev-layout.two-cols,
+.slidev-layout.two-cols-header {
   gap: 0.25rem 1rem;
   grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
 }
@@ -160,7 +166,7 @@ h6 {
   grid-template-rows: repeat(2, min-content) !important;
 }
 
-.slidev-layout.two-cols-header > div {
+.slidev-layout.two-cols-header>div {
   margin: 0;
 }
 
@@ -182,25 +188,26 @@ h6 {
   background-repeat: no-repeat;
 }
 
-.slidev-layout + .h-full {
+.slidev-layout+.h-full {
   z-index: -1;
 }
 
-.col-right pre:first-of-type, .col-left pre:first-of-type {
+.col-right pre:first-of-type,
+.col-left pre:first-of-type {
   margin-top: 1rem;
 }
 
-#slideshow > div {
+#slideshow>div {
   background-image: url(./images/brand-aslant-light.svg), url(./images/divider-bottom.svg);
   background-repeat: no-repeat;
   background-position: calc(100% - 54px) calc(100% - 32px), bottom;
   background-size: 8rem, 102%, 102%;
 }
 
-#slideshow > div > div {
+#slideshow>div>div {
   z-index: -1;
 }
 
-.dark #slideshow > div {
+.dark #slideshow>div {
   background-image: url(./images/brand-aslant-dark.svg), url(./images/divider-bottom.svg);
 }

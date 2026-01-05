@@ -33,24 +33,24 @@
     "@chenfengyuan/vue-qrcode": "^2.0.0",
     "@fontsource/fira-code": "^5.2.7",
     "@fontsource/pt-sans": "^5.2.8",
-    "@slidev/types": "^52.11.0",
+    "@slidev/types": "^52.11.1",
     "codemirror-theme-vars": "^0.1.2",
     "prism-theme-vars": "^0.2.5"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^6.6.1",
+    "@antfu/eslint-config": "^6.7.3",
     "@eslint/js": "^9.39.2",
     "@eslint/markdown": "^7.5.1",
-    "@slidev/cli": "^52.11.0",
-    "@typescript-eslint/eslint-plugin": "^8.49.0",
+    "@slidev/cli": "^52.11.1",
+    "@typescript-eslint/eslint-plugin": "^8.51.0",
     "conventional-github-releaser": "^3.1.5",
     "eslint": "^9.39.2",
     "eslint-plugin-vue": "^10.6.2",
-    "globals": "^16.5.0",
+    "globals": "^17.0.0",
     "playwright-chromium": "^1.57.0",
     "standard-version": "^9.5.0",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.49.0"
+    "typescript-eslint": "^8.51.0"
   },
   "peerDependencies": {
     "sass": "^1.69.4"
