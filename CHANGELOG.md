@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.10.12](https://github.com/openscript-ch/slidev-theme/compare/v0.10.11...v0.10.12) (2026-03-02)
+
+
+### Bug Fixes
+
+* export slide numbering ([098abdf](https://github.com/openscript-ch/slidev-theme/commit/098abdf32b64c6dc3c5ea8955666a37abde40c0c))
+
 ### [0.10.11](https://github.com/openscript-ch/slidev-theme/compare/v0.10.10...v0.10.11) (2026-01-05)
 
 ### [0.10.10](https://github.com/openscript-ch/slidev-theme/compare/v0.10.9...v0.10.10) (2025-12-13)
