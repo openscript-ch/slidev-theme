@@ -49,7 +49,7 @@
     "globals": "^17.4.0",
     "playwright-chromium": "^1.58.2",
     "standard-version": "^9.5.0",
-    "typescript": "^5.9.3",
+    "typescript": "^6.0.0",
     "typescript-eslint": "^8.57.1"
   },
   "peerDependencies": {
